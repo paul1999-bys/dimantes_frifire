@@ -1,0 +1,109 @@
+@import "https://fonts.googleapis.com/css?family=Roboto+Condensed";
+body, html {
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  background: #ccc;
+}
+
+.login {
+  width: 100%;
+  padding: 10px;
+}
+.login label {
+  color: #888;
+}
+.login .form-control {
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-color: #999;
+  color: #000;
+  font-weight: bolder;
+}
+.login .btn, .login .btn:focus, .login .btn:active, .login .btn:hover {
+  border-radius: 2px;
+  border: solid 1px #3B5998;
+  background: #4867AA;
+  font-size: 16px;
+  font-weight: lighter;
+  padding: 10px;
+  outline: none;
+  color: #fff;
+}
+.login .help-block {
+  text-align: left;
+  color: #4867AA;
+  display: block;
+}
+.login .signup,
+.login .signup:hover,
+.login .signup:focus,
+.login .signup:active {
+  text-align: center;
+  margin-top: 10px;
+  background: #6B8E23 !important;
+  border: solid 2px #aaa;
+}
+
+.ad {
+  background: #FFFAE2;
+  color: #4682B4;
+  border: solid #CFAA19;
+  border-width: 1px 0 1px 0;
+  position: relative;
+  top: -21px;
+  line-height: 50px;
+}
+.ad .icon {
+  width: 20px;
+  height: 50px;
+  background: url("https://lh3.googleusercontent.com/n0wGTCdZ7c1PQGg7tmodIaHa5farEkwo3yGqfytmmAfqWnxZbywXCdepQZsqIFWKaw=h900") -42px -114px transparent;
+  display: inline-block;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.navbar-default {
+  background: #2C4988;
+  border: none;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  min-height: 0;
+  height: 35px !important;
+}
+.navbar-default .navbar-brand {
+  color: #fff;
+  padding: 0;
+  line-height: 35px;
+  padding-left: 5px;
+  font-weight: bolder;
+}
+.navbar-default #create-account-btn {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  border-radius: 0;
+  border: none;
+  color: #fff;
+  font-weight: 100;
+  border: solid 1px #6495ED;
+  padding: 4px 15px;
+  background: #6B8E23;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+footer {
+  background: #444;
+  color: #999;
+  padding: 10px;
+}
+footer #copyright {
+  color: #fff;
+}
